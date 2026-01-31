@@ -5,8 +5,10 @@ The majority of this project is licensed under the WTFPL (Do What The F*ck You W
 
 Exceptions (MIT License):
 
-The following files are derived from third-party sources and are licensed under the MIT License instead of WTFPL:
+The following files are derived from third-party sources and are licensed under the MIT License/Public Domain instead of WTFPL:
 
-star/utils/.h (Original, unmodified)
-star/star_io.h (Modified version)
+star/star_io.h (Modified version, uses MIT)
+
+star/utils/subprocess.h (Not modified, uses Public Domain)
+
 Please refer to the header comments within these specific files for the full MIT license text and copyright notices.
