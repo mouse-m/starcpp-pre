@@ -21,7 +21,7 @@ def run_checker(exe_path, input_data):
 
 def main():
     if len(sys.argv) < 3:
-        print(f"Usage: {sys.argv[0]} <input_pattern_or_files> <check_exe>")
+        print(f"Usage: {sys.argv[0]} <input_pattern_or_files> <checker>")
         print("The program will exit in 5 seconds... Or you can close it yourself.")
         time.sleep(5)
         sys.exit(1)
